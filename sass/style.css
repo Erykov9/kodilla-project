@@ -1,0 +1,74 @@
+/* GLOBAL */
+* {
+  font-size: 1.12rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* NAVIGATION */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar-categories li {
+  padding-left: 5%;
+  display: list-item;
+}
+
+.navbar-categories li a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all;
+  transition: all;
+}
+
+.navbar-categories li a:hover {
+  font-weight: 600;
+}
+
+.navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10%;
+  font-size: 36px;
+  color: gold;
+  text-decoration: none;
+  font-family: 'Smooch', cursive;
+}
+
+/* BACKGROUND SPLASH */
+.splash {
+  background-image: url("https://images.pexels.com/photos/7610529/pexels-photo-7610529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+}
+/*# sourceMappingURL=style.css.map */
