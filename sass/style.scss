@@ -1,0 +1,94 @@
+/* GLOBAL */
+* {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.active {
+    font-weight: bold;
+}
+.btn {
+    padding: 20px 36px;
+    border: 1px solid rgba(57, 127, 184, 0.984);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    background: rgba(57, 127, 184, 0.984);
+    border-radius: 3%;
+    transition: all .5s;
+}
+.btn:hover {
+    color: rgba(57, 127, 184, 0.984);
+    border: 1px solid white;
+    background: white;
+}
+/* NAVIGATION */
+.navbar {
+    display: flex;
+    padding-top: 2%;
+}
+.navbar-categories {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    li {
+        padding-left: 50px;
+        display: flex;
+        a {
+            text-decoration: none;
+            color: white;
+            transition: all;
+        }
+    }
+}
+.navbar-categories li a:hover {
+    font-weight: 600;
+}
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 36px;
+    color: gold;
+    text-decoration: none;
+    font-family: 'Smooch', cursive;
+}
+/* BACKGROUND SPLASH */
+.splash {
+    background-image: url("https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    max-height: 100%;
+}
+.splash-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+}
+.splash-text {
+    color: white;
+    text-align: center;
+    line-height: 6em;
+    h2 {
+        font-style: italic;
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif
+    };
+    h1 {
+        font-size: 4em;
+        font-style: bold;
+    }
+}
