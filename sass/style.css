@@ -35,16 +35,8 @@
   background: white;
 }
 
-@media only screen and (max-width: 950px) {
-  .none {
-    display: none !important;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .font {
-    font-size: .5rem;
-  }
+p {
+  font-size: 18px;
 }
 
 /* NAVIGATION */
@@ -145,5 +137,64 @@
 .splash-text h1 {
   font-size: 4em;
   font-style: bold;
+}
+
+/* SERVICES */
+.services {
+  padding-top: 10%;
+  overflow: hidden;
+}
+
+.services-header {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.services-header h2 {
+  text-align: center;
+}
+
+.services-header p {
+  font-style: italic;
+}
+
+.services-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.services-card i {
+  font-size: 40px;
+  color: gold;
+  border: 5px solid gold;
+  border-radius: 50%;
+  padding: 0.5em 0.5em;
+}
+
+.services-card p {
+  padding-top: 5%;
+}
+
+.services-box div:nth-child(3) i {
+  padding: 0.5em 0.6em;
+}
+
+/*MEDIA*/
+@media only screen and (max-width: 950px) {
+  .none {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .font {
+    font-size: .5em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
