@@ -28,15 +28,8 @@
     border: 1px solid white;
     background: white;
 }
-@media only screen and (max-width: 950px) {
-    .none {
-        display: none!important;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .font {
-        font-size: .5rem;
-    }
+p {
+    font-size: 18px;
 }
 /* NAVIGATION */
 .navbar {
@@ -104,5 +97,54 @@
     h1 {
         font-size: 4em;
         font-style: bold;
+    }
+}
+/* SERVICES */
+.services {
+    padding-top: 10%;
+    overflow: hidden;
+}
+.services-header {
+    text-align: center;
+    font-size: 1.6em;
+    h2 {
+        text-align: center;
+    }
+    p {
+        font-style: italic;
+    }
+}
+.services-card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+    i {
+        font-size: 40px;
+        color: gold;
+        border: 5px solid gold;
+        border-radius: 50%;
+        padding: 0.5em 0.5em;
+    } 
+    p {
+        padding-top: 5%;
+    }
+}
+.services-box div:nth-child(3) i {
+    padding: 0.5em 0.6em;
+}
+
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 950px) {
+    .none {
+        display: none!important;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .font {
+        font-size: .5em;
     }
 }
