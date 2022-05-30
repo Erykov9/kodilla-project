@@ -1,1 +1,2 @@
+installing task-runner: 'npm run init-project'
 to run html validate: 'npm run test:html'
