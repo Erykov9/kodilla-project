@@ -132,6 +132,9 @@ p {
         padding-top: 5%;
     }
 }
+.services-card a p {
+    font-size: 0px;
+}
 .services-card i:hover {
     color: white;
     background-color: gold;
@@ -208,6 +211,9 @@ footer {
 }
 .footer-icons {
     text-align: center;
+    a {
+        font-size: 0;
+    }
 }
 .icons-list i:hover {
     transform: scale(1.5);
@@ -227,7 +233,7 @@ footer {
         display: none;
     }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 450px) {
     .font {
         font-size: .5em;
     }
